@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hafeez (Rex) — Shopify Designer</title>
+<meta name="description" content="Hafeez (Rex) — Shopify design and e-commerce redesign portfolio.">
+<style>
+:root{--bg:#080b14;--card:#111625;--text:#f7f7fb;--muted:#aab1c2;--purple:#8b5cf6;--teal:#2dd4bf;--line:#252c3d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5}
+a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:10;background:rgba(8,11,20,.82);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.06)}
+.navin{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:800;letter-spacing:.04em}.logo span{color:var(--purple)}
+.navlinks{display:flex;gap:24px;color:var(--muted);font-size:14px}.navlinks a:hover{color:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:12px;font-weight:750;background:#fff;color:#0a0d15}.btn.primary{background:var(--purple);color:#fff;box-shadow:0 12px 35px rgba(139,92,246,.25)}.btn.ghost{background:transparent;border:1px solid var(--line);color:#fff}
+.hero{padding:95px 0 80px;position:relative;overflow:hidden}.glow{position:absolute;width:420px;height:420px;border-radius:50%;background:rgba(139,92,246,.18);filter:blur(80px);right:-100px;top:30px}
+.kicker{color:#c4b5fd;font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.hero h1{font-size:clamp(42px,7vw,76px);line-height:.98;max-width:850px;margin:18px 0}.hero h1 em{font-style:normal;color:#c4b5fd}.hero p{font-size:18px;color:var(--muted);max-width:680px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+section{padding:76px 0}.sectionhead{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:30px}.sectionhead h2{font-size:34px;margin:0}.sectionhead p{color:var(--muted);max-width:520px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(180deg,#121827,#0e1320);border:1px solid var(--line);border-radius:20px;padding:20px}.card h3{margin:12px 0 6px}.muted{color:var(--muted)}
+.mock{height:245px;border-radius:14px;background:#f7f7f5;color:#171717;overflow:hidden;border:1px solid #d8d8d2}.browser{height:22px;background:#e7e7e2;padding:6px 9px;display:flex;gap:5px}.dot{width:6px;height:6px;border-radius:50%;background:#aaa}.shopnav{padding:12px 14px;display:flex;justify-content:space-between;font-size:9px;font-weight:800}.heroimg{margin:0 12px;height:94px;border-radius:9px;background:linear-gradient(135deg,#dedbd5,#a8a39b);padding:22px 16px}.heroimg b{font-size:18px;display:block}.heroimg span{font-size:7px}.products{display:flex;gap:7px;padding:12px}.prod{flex:1}.prodpic{height:56px;background:#ddd;border-radius:6px}.prod small{font-size:7px;display:block;margin-top:5px}
+.service{min-height:180px}.num{font-size:12px;color:#a78bfa;font-weight:800}.service h3{font-size:20px}
+.video{display:grid;grid-template-columns:1.15fr .85fr;gap:20px}.timeline{display:grid;gap:10px}.step{display:grid;grid-template-columns:60px 1fr;gap:14px;padding:15px;border:1px solid var(--line);border-radius:14px;background:#0d1220}.step b{color:#c4b5fd}
+.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.price{padding:26px;border:1px solid var(--line);border-radius:20px;background:#101522}.price.featured{border-color:#7c3aed;box-shadow:0 16px 50px rgba(124,58,237,.14)}.price .amount{font-size:36px;font-weight:850;margin:12px 0 20px}.price ul{padding-left:18px;color:var(--muted);min-height:105px}
+.cta{padding:70px 24px;border:1px solid var(--line);border-radius:28px;background:radial-gradient(circle at 80% 20%,rgba(45,212,191,.12),transparent 30%),linear-gradient(135deg,#121827,#0c101b);text-align:center}.cta h2{font-size:42px;margin:0 0 10px}.cta p{color:var(--muted);max-width:600px;margin:0 auto 24px}
+footer{padding:40px 0;color:var(--muted);font-size:13px;border-top:1px solid var(--line);margin-top:70px}
+@media(max-width:800px){.grid,.pricing{grid-template-columns:1fr}.video{grid-template-columns:1fr}.navlinks{display:none}.hero{padding-top:70px}.sectionhead{display:block}.sectionhead p{margin-top:10px}.cta h2{font-size:31px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap navin"><div class="logo">HAFEEZ <span>(REX)</span></div><div class="navlinks"><a href="#work">Work</a><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></div><a class="btn primary" href="#contact">Let's work</a></div></nav>
+
+<header class="hero"><div class="glow"></div><div class="wrap">
+<div class="kicker">Shopify Designer • E-commerce Specialist</div>
+<h1>Turn your Shopify store into a <em>better shopping experience.</em></h1>
+<p>I create clean, modern and mobile-friendly Shopify storefronts with clear layouts, strong product presentation and customer-focused design.</p>
+<div class="actions"><a class="btn primary" href="#work">View my work</a><a class="btn ghost" href="#contact">Contact me</a></div>
+</div></header>
+
+<section id="work"><div class="wrap"><div class="sectionhead"><h2>Selected work</h2><p>Three portfolio concepts showing how I approach different e-commerce brands and redesign goals.</p></div>
+<div class="grid">
+<article class="card"><div class="mock"><div class="browser"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div><div class="shopnav"><span>ATELIER</span><span>SHOP · COLLECTIONS · CART</span></div><div class="heroimg"><b>NEW SEASON</b><span>Clean design. Clear products. Better shopping.</span></div><div class="products"><div class="prod"><div class="prodpic"></div><small>Signature Product</small></div><div class="prod"><div class="prodpic"></div><small>Featured Collection</small></div><div class="prod"><div class="prodpic"></div><small>Best Seller</small></div></div></div><div class="num">PROJECT 01</div><h3>Fashion Store Redesign</h3><p class="muted">Homepage structure, collections, navigation and mobile-friendly layout.</p></article>
+<article class="card"><div class="mock"><div class="browser"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div><div class="shopnav"><span>PURE SKIN</span><span>SHOP · ROUTINE · ABOUT</span></div><div class="heroimg"><b>EVERYDAY GLOW</b><span>Minimal presentation built around the products.</span></div><div class="products"><div class="prod"><div class="prodpic"></div><small>Cleanser</small></div><div class="prod"><div class="prodpic"></div><small>Serum</small></div><div class="prod"><div class="prodpic"></div><small>Moisturizer</small></div></div></div><div class="num">PROJECT 02</div><h3>Skincare Store Design</h3><p class="muted">Minimal layout, product focus, brand presentation and responsive structure.</p></article>
+<article class="card"><div class="mock"><div class="browser"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div><div class="shopnav"><span>NOIR JEWELS</span><span>SHOP · NEW · STORY</span></div><div class="heroimg"><b>TIMELESS PIECES</b><span>Premium visual hierarchy with product-led sections.</span></div><div class="products"><div class="prod"><div class="prodpic"></div><small>Necklace</small></div><div class="prod"><div class="prodpic"></div><small>Bracelet</small></div><div class="prod"><div class="prodpic"></div><small>Ring</small></div></div></div><div class="num">PROJECT 03</div><h3>Jewelry Store Redesign</h3><p class="muted">Premium visual identity, large imagery, clean typography and product sections.</p></article>
+</div></div></section>
+
+<section id="services"><div class="wrap"><div class="sectionhead"><h2>What I offer</h2><p>Flexible Shopify design support for brands that want a cleaner and more professional storefront.</p></div>
+<div class="grid">
+<div class="card service"><div class="num">01</div><h3>Shopify Store Design</h3><p class="muted">Modern storefronts designed around your brand and customers.</p></div>
+<div class="card service"><div class="num">02</div><h3>Shopify Redesign</h3><p class="muted">Cleaner structure, stronger hierarchy and easier navigation.</p></div>
+<div class="card service"><div class="num">03</div><h3>Mobile Optimization</h3><p class="muted">Responsive layouts for phones, tablets and desktop.</p></div>
+<div class="card service"><div class="num">04</div><h3>Product Page Design</h3><p class="muted">Clear product presentation with focused information and CTAs.</p></div>
+<div class="card service"><div class="num">05</div><h3>Store Branding</h3><p class="muted">Typography, banners, sections and visual consistency.</p></div>
+<div class="card service"><div class="num">06</div><h3>E-commerce Layout</h3><p class="muted">Collections and customer journeys organized for easy browsing.</p></div>
+</div></div></section>
+
+<section><div class="wrap"><div class="sectionhead"><h2>Redesign showcase video</h2><p>A 30-second portfolio video concept built around a simple story: Before → Redesign → Mobile → CTA.</p></div>
+<div class="video"><div class="mock" style="height:330px"><div class="browser"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div><div class="shopnav"><span>HAFEEZ (REX)</span><span>SHOPIFY REDESIGN</span></div><div class="heroimg" style="height:130px"><b>BEFORE → AFTER</b><span>Show the transformation, then reveal the final storefront.</span></div><div style="padding:15px;font-size:9px"><b>30 SEC SHOWCASE</b><p style="font-size:8px">Fast cuts • smooth scrolling • mobile preview • clear CTA</p></div></div>
+<div class="timeline"><div class="step"><b>0–3s</b><div><strong>HOOK</strong><br><span class="muted">“Your Shopify store deserves a better first impression.”</span></div></div><div class="step"><b>3–8s</b><div><strong>BEFORE</strong><br><span class="muted">Show the original layout and key friction points.</span></div></div><div class="step"><b>8–12s</b><div><strong>TRANSITION</strong><br><span class="muted">“So I redesigned it.”</span></div></div><div class="step"><b>12–22s</b><div><strong>AFTER</strong><br><span class="muted">Homepage, product page, collections and mobile view.</span></div></div><div class="step"><b>22–30s</b><div><strong>CTA</strong><br><span class="muted">Hafeez (Rex) • Shopify Designer • Message me to start.</span></div></div></div></div></div></section>
+
+<section id="pricing"><div class="wrap"><div class="sectionhead"><h2>Starting packages</h2><p>Final pricing depends on the store size, pages and requirements.</p></div>
+<div class="pricing"><div class="price"><div class="num">STARTER</div><div class="amount">$50+</div><ul><li>Basic Shopify redesign</li><li>Homepage improvements</li><li>Mobile adjustments</li></ul><a class="btn ghost" href="#contact">Discuss project</a></div>
+<div class="price featured"><div class="num">PROFESSIONAL</div><div class="amount">$100+</div><ul><li>Full homepage redesign</li><li>Product & collection improvements</li><li>Mobile optimization</li></ul><a class="btn primary" href="#contact">Discuss project</a></div>
+<div class="price"><div class="num">PREMIUM</div><div class="amount">$200+</div><ul><li>Complete Shopify redesign</li><li>Homepage + product + collection pages</li><li>Branding + mobile optimization</li></ul><a class="btn ghost" href="#contact">Discuss project</a></div></div></div></section>
+
+<section id="contact"><div class="wrap"><div class="cta"><h2>Ready to redesign your store?</h2><p>Send me your current Shopify store and tell me what you want to improve. I’ll help shape the next step.</p>
+<!-- Replace the href below with your real Fiverr/Contra/WhatsApp/email link before publishing. -->
+<a class="btn primary" href="mailto:YOUR-EMAIL@example.com">Contact Hafeez (Rex)</a></div></div></section>
+
+<footer><div class="wrap">© 2026 Hafeez (Rex) • Shopify Designer & E-commerce Specialist</div></footer>
+</body></html>
